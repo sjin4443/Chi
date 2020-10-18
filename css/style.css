@@ -1,0 +1,522 @@
+/* CSS 애니메이션 정의 */
+
+.box1 {
+	width: 309px;
+	height: 820px;
+	background-color: white;
+	position: absolute; z-index: 1;
+}
+
+.box2 {
+	width: 309px;
+	height: 820px;
+	background-color: white;
+	position: absolute; z-index: 2;
+	margin-left: 1049px;
+}
+
+.fullsize-img {
+	width: 741px;
+	height: 820px;
+	margin-left: 308px;
+	position: absolute;
+	border: 0px;
+}
+
+.big_airplane {
+	width: 236px;
+	height: 197px;
+	position: absolute;
+
+	animation-name: big_airplane;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+}
+
+.big_airplane_speak {
+
+}
+
+.small_airplane {
+	width: 91px;
+	height: 67px;
+	position: absolute;
+
+	animation-name: small_airplane;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+.small_airplane_speak {
+	
+}
+
+.cloud {
+	width: 103px;
+	height: 64px;
+	margin-left: 870px;
+	margin-top: 20px;
+	position: absolute;
+
+	animation-name: cloud;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.cloud_speak {
+	
+
+}
+
+.boat {
+	width: 149px;
+	height: 101px;
+	margin-left: 832px;
+	margin-top: 579px;
+	position: absolute;
+
+	animation-name: boat;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.boat_speak {
+
+}
+
+.wave1 {
+	width: 38px;
+	height: 14px;
+	margin-left: 626px;
+	margin-top: 589px;
+	position: absolute;
+
+	animation-name: wave1;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.wave2 {
+	width: 35px;
+	height: 14px;
+	margin-left: 814px;
+	margin-top: 607px;
+	position: absolute;
+
+	animation-name: wave2;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.wave3 {
+	width: 34px;
+	height: 14px;
+	margin-left: 763px;
+	margin-top: 367px;
+	position: absolute;
+
+	animation-name: wave3;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.wave4 {
+	width: 38px;
+	height: 14px;
+	margin-left: 726px;
+	margin-top: 659px;
+	position: absolute;
+
+	animation-name: wave4;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.wave5 {
+	width: 33px;
+	height: 14px;
+	margin-left: 596px;
+	margin-top: 597px;
+	position: absolute;
+
+	animation-name: wave5;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.small_boat1 {
+	width: 33px;
+	height: 30px;
+	margin-left: 597px;
+	margin-top: 582px;
+	position: absolute;
+}
+.small_boat2 {
+	width: 33px;
+	height: 30px;
+	margin-left: 834px;
+	margin-top: 557px;
+	position: absolute;
+
+	animation-name: small_boat2;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.small_boat3 {
+	width: 33px;
+	height: 30px;
+	margin-left: 988px;
+	margin-top: 687px;
+	position: absolute;
+
+	animation-name: small_boat3;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.small_boat4 {
+	width: 33px;
+	height: 30px;
+	margin-left: 388px;
+	margin-top: 721px;
+	position: absolute;
+
+	animation-name: small_boat4;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.small_boat5 {
+	width: 33px;
+	height: 30px;
+	margin-left: 788px;
+	margin-top: 316px;
+	position: absolute;
+
+	animation-name: small_boat5;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.small_boat6 {
+	width: 33px;
+	height: 30px;
+	margin-left: 804px;
+	margin-top: 251px;
+	position: absolute;
+
+	animation-name: small_boat6;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.small_boat7 {
+	width: 33px;
+	height: 30px;
+	margin-left: 810px;
+	margin-top: 563px;
+	position: absolute;
+
+	animation-name: small_boat7;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+.small_boat8 {
+	width: 33px;
+	height: 30px;
+	margin-left: 710px;
+	margin-top: 616px;
+	position: absolute;
+
+	animation-name: small_boat8;
+	animation-duration: 0.8s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@-webkit-keyframes big_airplane {
+	from {
+		margin-left: 80px;
+		margin-top: 205px;
+	}
+
+	to {
+		margin-left: 1060px;
+		margin-top: 367px;
+	}
+}
+
+@-webkit-keyframes big_airplane_speak {
+	from {
+		margin-left: 150px;
+		margin-top: 155px;
+	}
+
+	to {
+		margin-left: 1130px;
+		margin-top: 307px;
+	}
+}
+
+@-webkit-keyframes small_airplane {
+	from {
+		margin-left: 616px;
+		margin-top: 81px;
+	}
+
+	to {
+		margin-left: 221px;
+		margin-top: 11px;
+	}
+}
+
+@-webkit-keyframes small_airplane_speak {
+	from {
+		margin-left: 546px;
+		margin-top: 131px;
+	}
+
+	to {
+		margin-left: 151px;
+		margin-top: 61px;
+	}
+}
+
+@-webkit-keyframes cloud {
+	0% {
+		margin-top: 20px;
+		margin-left: 870px;
+	}
+
+	20% {
+		margin-top: 42px;
+		margin-left: 880px;
+	}
+
+	40% {
+		margin-top: 20px;
+		margin-left: 892px;
+	}
+
+	60% {
+		margin-top: 42px;
+		margin-left: 902px;
+	}
+
+	80% {
+		margin-top: 20px;
+		margin-left: 932px;
+	}
+
+	100% {
+		margin-top: 42px;
+		margin-left: 952px;
+	}
+}
+
+@-webkit-keyframes cloud_speak {
+	0% {
+		margin-top: 79px;
+		margin-left: 828px;
+	}
+
+	20% {
+		margin-top: 101px;
+		margin-left: 880px;
+	}
+
+	40% {
+		margin-top: 79px;
+		margin-left: 892px;
+	}
+
+	60% {
+		margin-top: 101px;
+		margin-left: 902px;
+	}
+
+	80% {
+		margin-top: 79px;
+		margin-left: 932px;
+	}
+
+	100% {
+		margin-top: 101px;
+		margin-left: 952px;
+	}
+}
+
+@-webkit-keyframes boat {
+	0% {
+		margin-left: 832px;
+		margin-top: 579px;
+	}
+
+	20% {
+		margin-left: 845px;
+		margin-top: 582px;
+	}
+
+	40% {
+		margin-left: 860px;
+		margin-top: 578px;
+	}
+
+	60% {
+		margin-left: 875px;
+		margin-top: 580px;
+	}
+
+	80% {
+		margin-left: 885px;
+		margin-top: 581px;
+	}
+
+	100% {
+		margin-left: 907px;
+		margin-top: 579px;
+	}
+}
+
+
+@-webkit-keyframes wave1 {
+	from {
+		margin-top: 589px;
+	}
+
+	to {
+		margin-top: 591px;
+	}
+}
+
+
+@-webkit-keyframes wave2 {
+	from {
+		margin-top: 607px;
+	}
+
+	to {
+		margin-top: 606px;
+	}
+}
+
+
+@-webkit-keyframes wave3 {
+	from {
+		margin-top: 367px;
+	}
+
+	to {
+		margin-top: 365px;
+	}
+}
+
+
+@-webkit-keyframes wave4 {
+	from {
+		margin-top: 659px;
+	}
+
+	to {
+		margin-top: 661px;
+	}
+}
+
+
+@-webkit-keyframes wave5 {
+	from {
+		margin-top: 597px;
+	}
+
+	to {
+		margin-top: 599px;
+	}
+}
+
+@-webkit-keyframes small_boat2 {
+	from {
+		margin-top: 557px;
+	}
+	
+	to {
+		margin-top: 561;
+	}
+}
+
+@-webkit-keyframes small_boat3 {
+	from {
+		margin-top: 687px;
+	}
+	
+	to {
+		margin-top: 685px;
+	}
+}
+@-webkit-keyframes small_boat4 {
+	from {
+		margin-top: 721px;
+	}
+	
+	to {
+		margin-top: 719px;
+	}
+}
+@-webkit-keyframes small_boat5 {
+	from {
+		margin-top: 316px;
+	}
+	
+	to {
+		margin-top: 314px;
+	}
+}
+@-webkit-keyframes small_boat6 {
+	from {
+		margin-top: 251px;
+	}
+	
+	to {
+		margin-top: 253px;
+	}
+}
+@-webkit-keyframes small_boat7 {
+	from {
+		margin-top: 563px;
+	}
+	
+	to {
+		margin-top: 559px;
+	}
+}
+@-webkit-keyframes small_boat8 {
+	from {
+		margin-top: 616px;
+	}
+	
+	to {
+		margin-top: 619;
+	}
+}
+
+
+
+/* 	animation-name: tree1;
+	animation-duration: 0.25s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
